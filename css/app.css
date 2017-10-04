@@ -11,9 +11,17 @@ body {
 	text-align: center;
 	background-color: #F24738;
 	color: #FFFFFF;
-	padding-top: 5rem;
-	padding-bottom: 4rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	margin-bottom: 2rem;
+}
+.hero h1 {
+	font-size: 7em;
+	margin-bottom: 0;
+}
+
+.hero p {
+	font-size: 1.5em;
 }
 
 .colors {
