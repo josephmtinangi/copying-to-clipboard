@@ -1,3 +1,21 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.hero {
+	text-align: center;
+	background-color: #F24738;
+	color: #FFFFFF;
+	padding-top: 5rem;
+	padding-bottom: 4rem;
+	margin-bottom: 2rem;
+}
+
 .colors {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -10,21 +28,33 @@
 
 .color {
 	padding-bottom: 10px;
+	box-shadow: 0 0 0.5px #F24738;
 }
 
 .color div {
 	width: 100%;
 	height: 200px;
-	margin-bottom: 7px;
+	margin-bottom: 20px;
 	border-radius: 3px;
 }
 
 span {
 	cursor: pointer;
+	display: inline-block;
+	padding: 2px;
+	margin: 2px;
+	border: 0.5px solid #999;
+	border-radius: 3px;
+	font-weight: bold;
 }
 
 .error-msg {
 	text-align: center;
+	display: none;
+}
+
+.show {
+	display: block;
 }
 
 @media (max-width: 600px) {
